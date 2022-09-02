@@ -25,19 +25,15 @@ header nav {
 header .nav-border {
   padding: 40px;
   font-weight: 500;
+  font-size: 18px
 }
 
 header .nav-border {
   border-top: 3px solid transparent;
 }
 
-header .nav-border:hover {
-  border-top-color: #0065FC;
-  color: #0065FC;
-}
-
 #logo { 
-  height: 75px;
+  height: 100px;
   padding-top: 20px;
 }
 
@@ -45,13 +41,58 @@ h2 {
   font-size: 25px; 
   font-weight: 800;
   margin-top: 30px;
-  margin-left: 30px;
 }
 
 p {
-  margin-left: 30px;
   font-weight: 500;
   opacity: 0.7
+}
+
+#loc-dot {
+  background-color: #f2f2f2;
+  padding: 15px;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#localisation {
+  height: 50px;
+  width: 250px;
+  border-right: none;
+  border-left: none;
+  border: 1px solid #f2f2f2
+}
+
+input {
+  font-weight: 700;
+}
+
+.search {
+  height: 50px;
+  background-color: #0065FC;
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: 800;
+  font-size: 17px;
+  width: 120px;
+}
+
+#search-glass {
+  background-color: #0065FC;
+  padding: 15px;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
+.wrapper-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 

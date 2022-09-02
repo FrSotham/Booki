@@ -2,3 +2,13 @@ header {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header .nav-border:hover {
+    border-top-color: #0065FC;
+    color: #0065FC;
+  }
