@@ -1,27 +1,30 @@
 @media screen and (max-width: 992px){
     header .nav-border:hover {
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
         border-top: none;
       }
       header {
         justify-content: center;
+        width: 100%;
+        margin: auto;
       }
       header nav {
         width: 100%;
         justify-content: center;
         
       }
-      header ul {
-        width: 100%;
+      header a {
+        flex-basis: %;
+        border: 2px solid black;
       }
-
-      header ul li {
-        width: 100%;
+      header nav {
+        border-bottom: 2px solid #F2F2F2;
       }
 
       header .nav-border {
-        
+        padding-bottom: 15px 
       }
+
       
       
       
