@@ -18,5 +18,10 @@
         border-bottom: 2px solid #F2F2F2;
       }
 
+      .search {
+        display: none;
+      }
+
+
   }
   

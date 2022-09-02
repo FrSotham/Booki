@@ -12,3 +12,7 @@ header .nav-border:hover {
     border-top-color: #0065FC;
     color: #0065FC;
   }
+
+#search-glass {
+    display: none;
+}

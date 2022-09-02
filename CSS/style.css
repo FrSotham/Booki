@@ -78,6 +78,12 @@ input {
   font-weight: 800;
   font-size: 17px;
   width: 120px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.search:hover {
+  opacity: 1;
 }
 
 #search-glass {
