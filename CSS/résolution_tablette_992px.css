@@ -11,18 +11,16 @@
       header nav {
         width: 100%;
         justify-content: center;
-        
       }
-      header a {
-        flex-basis: %;
-        border: 2px solid black;
-      }
+
       header nav {
         border-bottom: 2px solid #F2F2F2;
       }
 
       header .nav-border {
-        padding-bottom: 15px 
+        padding: auto;
+        flex-basis: 50%;
+        text-align: center;
       }
 
       
