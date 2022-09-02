@@ -3,14 +3,18 @@ a {
   text-decoration: none;
 }
 
+* {
+  box-sizing: border-box
+}
+
 body{
   font-family: 'Raleway', sans-serif;
+  
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
   flex-wrap: wrap;
 }
 
@@ -20,19 +24,25 @@ header nav {
 
 header .nav-border {
   padding: 40px;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+header .nav-border {
+  border-top: 3px solid transparent;
 }
 
 header .nav-border:hover {
-  border-top: 3px solid #0065FC;
+  border-top-color: #0065FC;
+  color: #0065FC;
 }
 
 #logo { 
   height: 75px;
+  padding-top: 20px;
 }
 
 h2 {
-  font-size: 20px; 
+  font-size: 25px; 
   font-weight: 800;
   margin-top: 30px;
   margin-left: 30px;
