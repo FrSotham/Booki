@@ -1,5 +1,30 @@
 @media screen and (max-width: 992px){
     header .nav-border:hover {
         border-bottom: 2px solid #0065FC;
+        border-top: none;
       }
-}
+      header {
+        justify-content: center;
+      }
+      header nav {
+        width: 100%;
+        justify-content: center;
+        
+      }
+      header ul {
+        width: 100%;
+      }
+
+      header ul li {
+        width: 100%;
+      }
+
+      header .nav-border {
+        
+      }
+      
+      
+      
+      
+  }
+  

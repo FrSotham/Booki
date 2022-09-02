@@ -18,6 +18,10 @@ header {
   flex-wrap: wrap;
 }
 
+header nav {
+  display: flex
+}
+
 header ul {
   display: flex;
 }
@@ -32,14 +36,10 @@ header .nav-border:hover {
 }
 
 #logo { 
-  height: 75px
+  height: 75px;
+
 }
 
-@media screen and (max-width: 992px){
-  header .nav-border:hover {
-      border-top: none;
-    }
-}
 
 
 
