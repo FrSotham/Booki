@@ -16,3 +16,11 @@ header .nav-border:hover {
 #search-glass {
     display: none;
 }
+
+#filter-section {
+    margin-top: 40px;
+}
+
+.wrapper-form {
+    margin-top: 30px
+}

@@ -108,54 +108,48 @@ input {
 
 /*FILTER SECTION*/
 
-ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-#filter-choice li {
-  margin: 30px;
-  padding:15px;
-  border: 3px solid #f2f2f2;
-  border-radius: 50px;
-  width: 250px;
+#filter-section {
   display: flex;
   align-items: center;
-  justify-content: center;;
-  font-weight: 800 ;
-  margin-left: -25px;
-  cursor: pointer
-}
-
-#filter {
-  display: flex;
-  align-items: center;
+  
 }
 
 #filter-choice {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 40px;
+  flex-wrap: wrap;
 }
 
-#filter-choice i {
+#filter-choice .filter {
+  margin-right: 30px;
+  padding:0px;
+  border: 3px solid #f2f2f2;
+  border-radius: 50px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  font-weight: 800 ;
+  cursor: pointer;
+}
+
+#filter-choice .filter i {
   background-color: #DEEBFF;
   padding: 15px;
   border-radius: 50px;
   color: #0065FC;
   font-size: 25px;
-  margin-right: -25px;
-  z-index: 1;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: -10px;
 }
 
-#filter-choice li:hover {
+#filter-choice .filter:hover {
   color: #0065FC;
+  transform: scale(1.05);
 }
+
 
 
 
