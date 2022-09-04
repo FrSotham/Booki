@@ -1,5 +1,4 @@
-@media screen and (max-width: 992px){
-    header .nav-border:hover {
+      header .nav-border:hover {
         border-bottom: 3px solid #0065FC;
         border-top-color: transparent;
       }
@@ -34,9 +33,53 @@
       #filter-section {
         margin-top: 0px;
       }
+
+      .hotel {
+        width: 100%;
+        height: 300px
+      }
+
+      #hotel-bloc1 {
+        flex-wrap: wrap;
+      }
       
-    
+      #hotel-bloc2 {
+        flex-wrap: wrap;
+      }
 
+      #accomodation {
+        background-color: red;
+        width: 100%
+      }
 
-  }
+    /* IMAGE HOTEL RESPONSIVE */
+      
+      #img-cannebiere {
+        object-position: 1px 70% ;
+      }
+
+      #img-port {
+        object-position: 1px 80% ;
+      }
+
+      #img-mouettes{
+        object-position: 1px 90% ;
+      }
+
+      #img-mer {
+        object-position: 1px 80% ;
+      }
+
+      #img-panier {
+        object-position: 1px 40% ;
+      }
+
+      #img-amina {
+        object-position: 1px 65% ;
+      }
+
+      .hotel:hover {
+        transform: scale(1.020);
+      }
+        
   

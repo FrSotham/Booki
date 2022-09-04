@@ -27,3 +27,16 @@ header .nav-border:hover {
 .wrapper-form {
     margin-top: 30px
 }
+
+#accomodation {
+    width: 65%;
+}
+
+.hotel {
+    width: 29%;
+    height: 230px;
+}
+
+.hotel:hover {
+    transform: scale(1.1);
+  }
