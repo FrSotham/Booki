@@ -7,6 +7,7 @@ a {
   box-sizing: border-box
 }
 
+
 body{
   font-family: 'Raleway', sans-serif;
   
@@ -112,15 +113,22 @@ input {
 #filter-section {
   display: flex;
   align-items: center;
-  
+  flex-wrap: wrap;
+}
+
+#filter-section h2 {
+  margin-right: 20px;
 }
 
 #filter-choice {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 40px;
   flex-wrap: wrap;
+}
+
+#filter-choice .filter-column {
+  display: flex;
 }
 
 #filter-choice .filter {
@@ -137,7 +145,11 @@ input {
 
 #filter-choice .filter i {
   background-color: #DEEBFF;
-  padding: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50px;
   color: #0065FC;
   font-size: 25px;

@@ -1,11 +1,11 @@
 header {
-    padding-left: 40px;
+    padding: 40px;
     padding-right: 40px;
 }
 
 main {
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 
 }
 
 header .nav-border:hover {
@@ -20,6 +20,10 @@ header .nav-border:hover {
 #filter-section {
     margin-top: 40px;
 }
+
+#filter-choice {
+    margin-left: 40px;
+} 
 
 .wrapper-form {
     margin-top: 30px
