@@ -1,11 +1,10 @@
 header {
-    padding: 40px;
+    padding-left: 40px;
     padding-right: 40px;
 }
 
 main {
     padding-left: 40px;
-    padding-right: 
 }
 
 header .nav-border:hover {
