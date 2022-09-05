@@ -1,0 +1,12 @@
+.hotel-description h4 {
+    font-size: 14px
+}
+
+.hotel-description p {
+    font-size: 12px;
+}
+
+#popular-choice .hotel-description p {
+    color: blue;
+    margin: 3px
+}

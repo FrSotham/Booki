@@ -40,3 +40,21 @@ header .nav-border:hover {
 .hotel:hover {
     transform: scale(1.1);
   }
+
+.hotel-description h4 {
+    margin: 0%;
+    font-size: 18px
+  }
+
+  .hotel-description p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+
+  #popular-choice .hotel-description p {
+    margin: 2px
+  }
+
+
+
