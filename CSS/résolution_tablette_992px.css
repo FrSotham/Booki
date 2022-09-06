@@ -26,17 +26,13 @@
         display: none;
       }
 
-      main {
-        margin: 30px
-      }
-
       #filter-section {
         margin-top: 0px;
       }
 
       .hotel {
         width: 100%;
-        height: 300px
+        height: 300px;
       }
 
       #hotel-bloc1 {
@@ -48,8 +44,17 @@
       }
 
       #accomodation {
-        background-color: red;
-        width: 100%
+        width: 100%;
+        height: 100%;
+        background-color: white;
+      }
+
+      #content {
+        flex-direction: column-reverse;
+      }
+
+      #accomodation .hotel-description {
+        margin: 10px;
       }
 
     /* IMAGE HOTEL RESPONSIVE */
@@ -81,5 +86,15 @@
       .hotel:hover {
         transform: scale(1.020);
       }
-        
+
+      /* POPULAR SECTION RESPONSIVE */
+
+      #popular {
+        padding: 30px;
+        padding-top: 10px;
+      }
+      
+
+
+      
   

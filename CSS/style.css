@@ -116,7 +116,7 @@ input {
   flex-wrap: wrap;
 }
 
-#filter-section h2 {
+#filter-section h1 {
   margin-right: 20px;
 }
 
@@ -189,9 +189,9 @@ input {
 /* ACCOMODATIONS SECTION */
 
 #accomodation {
-  background-color: #f2f2f2;
   padding: 30px;
   border-radius: 10px;
+  height: 100%
 }
 
 .hotel {
@@ -199,7 +199,7 @@ input {
   margin: auto;
   margin-bottom: 20px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #66626227;
+  box-shadow: 5px 5px 5px 5px #66626227;
   transition: 0.8s;
 }
 
@@ -209,13 +209,12 @@ input {
 }
 
 .hotel-picture {
-  display: flex;
   justify-content: center;
   margin: 7px;
   height: 50%;
 }
 
-.hotel-picture img {
+#accomodation .hotel-picture img {
   border-top-left-radius:  20px;
   border-top-right-radius:  20px;
   width: 100%;
@@ -233,9 +232,7 @@ input {
   justify-content: space-between;
 }
 
-.hotel-description {
-  margin: 5%;
-}
+
 
 .blue-star {
   color: #0065FC;
@@ -255,34 +252,47 @@ input {
 /* POPULAR-SECTION */
 
 #popular {
-  width: 30%;
   background-color: #f2f2f2;
   border-radius: 10px;
 }
 
 #content {
   display: flex;
-  gap: 40px;
-  height: 700px
-}
-
-#popular-choice > .hotel {
-  width: 80%;
-  height: 175px
 }
 
 #popular-title {
   display: flex ;
   align-items: center;
-  justify-content: space-around;
-  margin-left: -30px;
-  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 0px;
 }
 
-#popular-choice > .hotel > .hotel-description {
-  margin: 0px;
-  margin-left: 10px
+#popular .hotel {
+  display: flex;
+  height: 150px;
+  
 }
+
+#popular .hotel-picture {
+  width: 30%;
+  height: 95%;
+}
+
+#popular .hotel-description {
+  width: 70%;
+  padding-top: 15px;
+}
+
+#popular .hotel-picture img {
+  border-top-left-radius:  20px;
+  border-bottom-left-radius:  20px;
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  
+}
+
+
 
 
 
