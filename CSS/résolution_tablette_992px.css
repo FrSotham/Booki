@@ -108,6 +108,14 @@
         padding: 30px;
         padding-top: 10px;
       }
+
+      #popular .hotel-description {
+        padding-left: 20px
+      }
+
+      #popular .hotel-description h4 {
+        margin: 5px
+      }
       
 
 

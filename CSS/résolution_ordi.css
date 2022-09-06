@@ -1,10 +1,8 @@
-header {
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
-main {
+html {
     padding-left: 40px;
+    padding-right: 40px
+
 }
 
 header .nav-border:hover {
@@ -47,8 +45,13 @@ header .nav-border:hover {
     transform: scale(1.1);
   }
 
+  .activities-picture:hover {
+    transform: scale(1.025)
+  }
+
 .hotel-description h4 {
-    margin: 0%;
+    margin-bottom: 15px;
+    margin-top: 0%;
     font-size: 18px
   }
 
