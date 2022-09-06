@@ -17,12 +17,17 @@ header .nav-border:hover {
 }
 
 #filter-section {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-#filter-choice {
+.filter {
     margin-left: 40px;
-} 
+    width: 250px;
+}
+
+.filter-column {
+    display: flex;
+}
 
 .wrapper-form {
     margin-top: 30px

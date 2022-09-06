@@ -26,9 +26,24 @@
         display: none;
       }
 
-      #filter-section {
-        margin-top: 0px;
+      #search-section {
+        margin: 30px;
+
       }
+
+      #filter-section {
+        margin-top: 30px;
+      }
+
+      .filter {
+        flex-wrap: wrap;
+        margin-left: 40px;
+        width: 250px;
+      }
+
+      .filter-column {
+        display: flex;
+    }
 
       .hotel {
         width: 100%;

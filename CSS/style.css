@@ -42,10 +42,8 @@ header .nav-border {
 
 /*SEARCH SECTION*/
 
-#search-section h2 {
-  font-size: 25px; 
-  font-weight: 800;
-  margin-top: 30px;
+#search-section h1 {
+  font-weight: 700;
 }
 
 p {
@@ -120,23 +118,15 @@ input {
   margin-right: 20px;
 }
 
-#filter-choice {
+#filter-title {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
 }
 
-#filter-choice .filter-column {
-  display: flex;
-}
-
-#filter-choice .filter {
-  margin-right: 30px;
+.filter {
   padding:0px;
   border: 3px solid #f2f2f2;
   border-radius: 50px;
-  width: 250px;
   display: flex;
   align-items: center;
   font-weight: 800 ;
@@ -149,7 +139,7 @@ input {
   margin: auto;
 }
 
-#filter-choice .filter i {
+.filter i {
   background-color: #DEEBFF;
   width: 50px;
   height: 50px;
@@ -158,12 +148,11 @@ input {
   align-items: center;
   border-radius: 50px;
   color: #0065FC;
-  font-size: 25px;
   font-weight: 900;
   margin-left: -10px;
 }
 
-#filter-choice .filter:hover {
+.filter:hover {
   color: #0065FC;
   transform: scale(1.05);
 }
