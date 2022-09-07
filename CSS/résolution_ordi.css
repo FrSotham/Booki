@@ -1,97 +1,145 @@
 
-html {
-    padding-left: 40px;
-    padding-right: 40px
+    body {
+        margin: 30px
+    }
 
-}
-
-header .nav-border:hover {
+    header .nav-border:hover {
     border-top-color: #0065FC;
     color: #0065FC;
-  }
+    }
 
-#search-glass {
+    #search-glass {
     display: none;
-}
+    }
 
-#filter-section {
+    #filter-section {
     margin-top: 30px;
-}
+    }
 
-.filter {
+    .filter {
     margin-left: 40px;
     width: 250px;
-}
+    }
 
-.filter-column {
+    .filter p {
+        margin: auto;
+    }
+
+    .filter-column {
     display: flex;
-}
+    }
 
-.wrapper-form {
+    .wrapper-form {
     margin-top: 30px
-}
+    }
 
-#accomodation {
+    #accomodation {
     width: 65%;
     background-color: #f2f2f2;
-}
+    padding: 30px;
+    }
 
-.hotel {
+    .hotel {
     width: 29%;
     height: 230px;
-}
+    }
 
-.hotel:hover {
+    .hotel:hover {
     transform: scale(1.1);
-  }
+    }
 
-  .activities-picture:hover {
+    .activities-picture:hover {
     transform: scale(1.025)
-  }
+    }
 
-.hotel-description h4 {
+    .hotel-description h4 {
     margin-bottom: 15px;
     margin-top: 0%;
     font-size: 18px
-  }
+    }
 
-  .hotel-description p {
+    .hotel-description p {
     margin-top: 7px;
     margin-bottom: 7px;
     font-size: 15px;
-  }
+    }
 
-  .hotel-description {
+    .hotel-description {
     margin: 5%;
-  }
+    }
 
-  #popular-choice .hotel-description p {
+    #popular-choice .hotel-description p {
     margin: 2px
-  }
+    }
 
-  #popular-choice > .hotel {
+    #popular-choice > .hotel {
     width: 80%;
     height: 175px
-  }
+    }
 
-  #popular {
+    #popular {
     width: 30%;
-  }
+    }
 
-  .hotel-picture {
+    .hotel-picture {
     display: flex;
-  }
+    }
 
-  #popular-choice > .hotel > .hotel-description {
+    #popular-choice > .hotel > .hotel-description {
     margin: 0px;
     margin-left: 10px
-  }
+    }
 
     #popular-title {
     margin: 15px
-}
+    }
 
     #content {
         gap: 40px
     }
 
+    #activities-section {
+        margin-top: 40px
+    }
+
+    #activities {
+        display: flex;
+    }
+
+    .s-picture {
+        width: 50%;
+        height: 600px;
+    }
+
+    .g-picture {
+        width: 50%;
+        height: 100%;
+    }
+
+    #activities .g-picture img {
+        height: 500px;
+      }
+
+    #activities .s-picture img {
+        height: 200px;
+      }
+
+    .activities-picture h3 {
+        margin: 20px;
+        font-size: 16px;
+      }
+
+      @media screen and (max-width: 1260px) {
+        #activities-bloc2 > .g-picture > .activities-picture > h3 {
+            font-size: 16px;
+            margin-top:  5px;
+        }
+      } 
+      
+      @media screen and (max-width: 1058px) {
+        #activities-bloc2 > .s-picture > .activities-picture > h3 {
+            font-size: 15px;
+            margin-left: 5px
+      }
+    }
+    
