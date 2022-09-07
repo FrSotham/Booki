@@ -1,3 +1,5 @@
+      /*HEADER SECTION*/
+
       header .nav-border:hover {
         border-bottom: 3px solid #0065FC;
         border-top-color: transparent;
@@ -22,6 +24,8 @@
         border-bottom: 2px solid #F2F2F2;
       }
 
+      /*SEARCH SECTION*/
+
       .search {
         display: none;
       }
@@ -30,6 +34,8 @@
         margin: 30px;
 
       }
+
+      /*FILTER SECTION*/
 
       #filter-section {
         margin-top: 30px;
@@ -42,7 +48,9 @@
 
       .filter-column {
         display: flex;
-    }
+      }
+
+      /* ACCOMODATIONS SECTION */
 
       .hotel {
         width: 100%;
@@ -104,7 +112,7 @@
         transform: scale(1.020);
       }
 
-      /* POPULAR SECTION RESPONSIVE */
+      /* POPULAR SECTION */
 
       #popular {
         padding: 30px;
@@ -122,6 +130,8 @@
       #popular .hotel-description h4 {
         margin: 5px
       }
+
+      /* ACTIVITIES SECTION */
 
       #activities-section {
         display: flex;

@@ -1,14 +1,14 @@
 {
     "folders": [
         {
-            "path": "Reservia"
+            "path": "Booki"
         },
         {
             "path": "."
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "Reservia",
+        "liveServer.settings.multiRootWorkspaceName": "Booki",
         "liveServer.settings.port": 5501
     }
 }

@@ -1,7 +1,8 @@
-
     main {
         margin: 30px
     }
+
+    /*HEADER SECTION*/
 
     header {
         margin: 0px 30px;
@@ -12,9 +13,13 @@
     color: #0065FC;
     }
 
+    /*SEARCH SECTION*/
+
     #search-glass {
     display: none;
     }
+
+    /*FILTER SECTION*/
 
     #filter-section {
     margin-top: 30px;
@@ -26,15 +31,17 @@
     }
 
     .filter p {
-        margin: auto;
+    margin: auto;
     }
 
     .filter-column {
     display: flex;
     }
 
-    .wrapper-form {
-    margin-top: 30px
+    /* ACCOMODATIONS SECTION */
+
+    #content {
+        gap: 40px
     }
 
     #accomodation {
@@ -52,10 +59,6 @@
     transform: scale(1.1);
     }
 
-    .activities-picture:hover {
-    transform: scale(1.025)
-    }
-
     .hotel-description h4 {
     margin-bottom: 15px;
     margin-top: 0%;
@@ -68,15 +71,17 @@
     font-size: 15px;
     }
 
+    .hotel-description {
+    margin: 5%;
+    }
+
     @media screen and (max-width: 1140px) {
         .hotel-description h4 {
             font-size: 14px
         }
     }
 
-    .hotel-description {
-    margin: 5%;
-    }
+    /* POPULAR-SECTION */
 
     #popular-choice .hotel-description p {
     margin: 2px
@@ -104,9 +109,7 @@
     margin: 15px
     }
 
-    #content {
-        gap: 40px
-    }
+    /* ACTIVITIES SECTION */
 
     #activities-section {
         margin-top: 40px
@@ -139,14 +142,18 @@
         font-size: 16px;
       }
 
-      @media screen and (max-width: 1260px) {
-        #activities-bloc2 > .g-picture > .activities-picture > h3 {
+    .activities-picture:hover {
+        transform: scale(1.025)
+        }
+
+    @media screen and (max-width: 1260px) {
+    #activities-bloc2 > .g-picture > .activities-picture > h3 {
             font-size: 16px;
             margin-top:  5px;
         }
       } 
       
-      @media screen and (max-width: 1058px) {
+    @media screen and (max-width: 1058px) {
         #activities-bloc2 > .s-picture > .activities-picture > h3 {
             font-size: 15px;
             margin-left: 5px
