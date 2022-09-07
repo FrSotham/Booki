@@ -51,5 +51,14 @@
   header nav {
     height: 60px
   }
+
+  #footer-content {
+    flex-direction: column;
+    align-items:
+  }
+
+  .footer-column {
+  }
     
+  
 
