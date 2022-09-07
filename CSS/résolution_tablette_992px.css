@@ -37,6 +37,7 @@
 
       .filter {
         flex-wrap: wrap;
+        margin-left: 15px
       }
 
       .filter-column {

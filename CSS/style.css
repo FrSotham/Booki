@@ -48,7 +48,7 @@ p {
 #loc-dot {
   background-color: #f2f2f2;
   padding: 15px;
-  font-size: 20px;
+  font-size: 24px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -66,7 +66,7 @@ input {
 }
 
 .search {
-  height: 50px;
+  height: 54px;
   background-color: #0065FC;
   color: white;
   border: none;
@@ -86,7 +86,7 @@ input {
 #search-glass {
   background-color: #0065FC;
   padding: 15px;
-  font-size: 20px;
+  font-size: 24px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   color: white;
