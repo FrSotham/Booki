@@ -22,10 +22,7 @@ header nav {
 header .nav-border {
   padding: 40px;
   font-weight: 500;
-  font-size: 18px
-}
-
-header .nav-border {
+  font-size: 18px;
   border-top: 3px solid transparent;
 }
 
@@ -108,17 +105,7 @@ input {
   flex-wrap: wrap;
 }
 
-#filter-section h1 {
-  margin-right: 20px;
-}
-
-#filter-title {
-  display: flex;
-  align-items: center;
-}
-
 .filter {
-  padding:0px;
   border: 3px solid #f2f2f2;
   border-radius: 50px;
   display: flex;
