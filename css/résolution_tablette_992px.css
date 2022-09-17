@@ -19,7 +19,7 @@
       }
 
       header .nav-border {
-        flex-basis: 50%;
+        width: 50%;
         text-align: center;
         border-bottom: 2px solid #F2F2F2;
       }

@@ -10,3 +10,7 @@
     margin: 3px
 }
 
+.hotel-description {
+    overflow: hidden;
+}
+
