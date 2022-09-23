@@ -26,8 +26,12 @@
 
       /*SEARCH SECTION*/
 
-      .search {
+      .search span {
         display: none;
+      }
+
+      .search {
+        width: 60px;
       }
 
       #search-section {
