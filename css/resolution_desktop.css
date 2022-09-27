@@ -1,7 +1,5 @@
 /* DESKTOP ONLY*/
 
-@media screen and (min-width: 993px) {
-
     body {
         padding: 0px 30px;
     }
@@ -150,7 +148,7 @@
         transform: scale(1.025)
         }
     
-      }
+
     
     @media screen and (max-width: 1260px) {
     #activities-bloc2 > .g-picture > .activities-picture > h3 {
