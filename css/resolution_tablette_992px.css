@@ -1,222 +1,208 @@
-      body {
-        padding: 0px 0px;
-      } 
+body {
+    padding: 0px 0px;
+}
 
-      main {
-        margin: 0px
-     }
-      
-      /*HEADER SECTION*/
+main {
+    margin: 0px;
+}
 
-      header .nav-border:hover {
-        border-bottom: 3px solid #0065FC;
-        border-top-color: transparent;
-      }
-      
-      header {
-        justify-content: center;
-        width: 100%;
-        margin: 0px;
-      }
+/*HEADER SECTION*/
 
-      #logo { 
-        margin: auto;
-      }
+header .nav-border:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top-color: transparent;
+}
 
-      header nav {
-        width: 100%;
-      }
+header {
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
 
-      header .nav-border {
-        width: 50%;
-        text-align: center;
-        border-bottom: 2px solid #F2F2F2;
-      }
+#logo {
+    margin: auto;
+}
 
-      /*SEARCH SECTION*/
+header nav {
+    width: 100%;
+}
 
-      .search span {
-        display: none;
-      }
+header .nav-border {
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+}
 
-      .search {
-        width: 60px;
-      }
+/*SEARCH SECTION*/
 
-      #search-section {
-        margin: 30px;
-      }
+.search span {
+    display: none;
+}
 
-      #search-glass {
-        display: block;
-        }
+.search {
+    width: 60px;
+}
 
-      /*FILTER SECTION*/
+#search-section {
+    margin: 30px;
+}
 
-      #filter-section {
-        margin-top: 30px;
-      }
+#search-glass {
+    display: block;
+}
 
-      .filter {
-        flex-wrap: wrap;
-        margin-left: 15px
-      }
+/*FILTER SECTION*/
 
-      .filter-column {
-        display: flex;
-      }
+#filter-section {
+    margin-top: 30px;
+}
 
-      /* ACCOMODATIONS SECTION */
+.filter {
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
 
-      .hotel {
-        width: 100%;
-        height: 230px;
-      }
+.filter-column {
+    display: flex;
+}
 
-      .hotel-picture {
-        height: 60%;
-      }
+/* ACCOMODATIONS SECTION */
 
-      #hotel-bloc1 {
-        flex-wrap: wrap;
-      }
-      
-      #hotel-bloc2 {
-        flex-wrap: wrap;
-      }
+.hotel {
+    width: 100%;
+    height: 230px;
+}
 
-      #accomodation {
-        width: 90%;
-        height: 100%;
-        background-color: white;
-        margin: auto;
-        margin-top: 40px;
-        padding: 0px;
-        
-      }
+.hotel-picture {
+    height: 60%;
+}
 
-      #content {
-        flex-direction: column-reverse;
-      }
+#hotel-bloc1 {
+    flex-wrap: wrap;
+}
 
-      #accomodation .hotel-description {
-        margin: 10px;
-      }
+#hotel-bloc2 {
+    flex-wrap: wrap;
+}
 
-    /* IMAGE HOTEL RESPONSIVE */
-      
-      #img-cannebiere {
-        object-position: 1px 70% ;
-      }
+#accomodation {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0px;
+}
 
-      #img-port {
-        object-position: 1px 80% ;
-      }
+#content {
+    flex-direction: column-reverse;
+}
 
-      #img-mouettes{
-        object-position: 1px 90% ;
-      }
+#accomodation .hotel-description {
+    margin: 10px;
+}
 
-      #img-mer {
-        object-position: 1px 80% ;
-      }
+/* IMAGE HOTEL RESPONSIVE */
 
-      #img-panier {
-        object-position: 1px 40% ;
-      }
+#img-cannebiere {
+    object-position: 1px 70%;
+}
 
-      #img-amina {
-        object-position: 1px 65% ;
-      }
+#img-port {
+    object-position: 1px 80%;
+}
 
-      .hotel:hover {
-        transform: scale(1.020);
-      }
+#img-mouettes {
+    object-position: 1px 90%;
+}
 
-      /* POPULAR SECTION */
+#img-mer {
+    object-position: 1px 80%;
+}
 
-      #popular {
-        width: 100%;
-      }
+#img-panier {
+    object-position: 1px 40%;
+}
 
-      #popular .hotel {
-        width: 90%
-      }
+#img-amina {
+    object-position: 1px 65%;
+}
 
-      #popular .hotel-description {
-        padding-left: 20px
-      }
+.hotel:hover {
+    transform: scale(1.02);
+}
 
-      #popular .hotel-description h4 {
-        margin: 5px
-      }
+/* POPULAR SECTION */
 
-      /* ACTIVITIES SECTION */
+#popular {
+    width: 100%;
+}
 
-      #activities-section {
-        display: flex;
-        flex-direction: column;
-        margin: 40px;
-      }
+#popular .hotel {
+    width: 90%;
+}
 
-      #activities {
-        flex-direction: column;
-      }
+#popular .hotel-description {
+    padding-left: 20px;
+}
 
-      #activities-bloc1 {
-        flex-direction: column;
-      }
+#popular .hotel-description h4 {
+    margin: 5px;
+}
 
-      #activities-bloc2 {
-        flex-direction: column;
-      }    
+/* ACTIVITIES SECTION */
 
-      .activities-picture {
-        height: 230px;
-        width: 100%;
-      }
+#activities-section {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
 
-      .g-picture {
-        width: 100%;
-        height: 100%;
-      }
+#activities {
+    flex-direction: column;
+}
 
-      .s-picture {
-        width: 100%;
-        height: 100%;
-    }
+#activities-bloc1 {
+    flex-direction: column;
+}
 
-      #activities .s-picture img {
-        height: 80%;
-        width: 100%;
-        object-fit: cover;
-      }
+#activities-bloc2 {
+    flex-direction: column;
+}
 
-      #activities .g-picture img {
-        height: 80%;
-        width: 100%;
-        object-fit: cover;
-      }
+.activities-picture {
+    height: 230px;
+    width: 100%;
+}
 
-      .activities-picture h3 {
-        padding: 10px;
-        margin: 0px;
-        font-size: 16px
-      }
+.g-picture {
+    width: 100%;
+    height: 100%;
+}
 
-      .s-picture {
-        gap: 20px
-      }
-      
+.s-picture {
+    width: 100%;
+    height: 100%;
+}
 
-      
+#activities .s-picture img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
 
-      
-      
-      
+#activities .g-picture img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
 
-      
+.activities-picture h3 {
+    padding: 10px;
+    margin: 0px;
+    font-size: 16px;
+}
 
-
-      
-  
+.s-picture {
+    gap: 20px;
+}

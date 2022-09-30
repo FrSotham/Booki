@@ -1,58 +1,56 @@
-    
-    /*SEARCH SECTION*/
-    
-    #search-section h1 {
-        font-size: 22px;
+/*SEARCH SECTION*/
+
+#search-section h1 {
+    font-size: 22px;
+}
+
+/*FILTER SECTION*/
+
+.filter-column {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#filter-title {
+    width: 100%;
+}
+
+#filter-section {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 590px) {
+    .eco,
+    .family {
+        width: 180px;
     }
-    
-    /*FILTER SECTION*/
-    
-    .filter-column {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%
-    }
+}
 
-    #filter-title {
-    width: 100%
-    }
-
-    #filter-section {
-        margin-top: 15px;
-    }
-
-    @media screen and (max-width: 590px) {
-        .eco, .family {
-            width: 180px
-        }
-    }
-
-    @media screen and (max-width: 450px) {
-        .eco, .family {
-            width: 130px;
-        }
-
-        .romantic, .animals{
-            width: 180px
-        }
-
-        .filter {
-            font-size: 14px;
-        }
-
-        .filter p {
-            margin-left: 0px
-        }
+@media screen and (max-width: 450px) {
+    .eco,
+    .family {
+        width: 130px;
     }
 
-    /* FOOTER SECTION */
-
-    #footer-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
+    .romantic,
+    .animals {
+        width: 180px;
     }
 
+    .filter {
+        font-size: 14px;
+    }
 
+    .filter p {
+        margin-left: 0px;
+    }
+}
 
+/* FOOTER SECTION */
 
+#footer-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
